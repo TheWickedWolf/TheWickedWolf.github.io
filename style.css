@@ -1,0 +1,692 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Desktop Version / Global*/
+
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+	position: relative;
+	font-family: 'averia serif libre', 'cursive';
+	max-width: 1200px;
+	height: 100%;
+	background-color: #C1D6CD;
+	margin:auto;
+	
+}
+
+.main{
+	min-height:100%;
+	position: relative;
+	bottom: 0px;
+	margin-bottom: 0px;
+	
+}
+
+#pro {
+	font-size: 40px;
+	text-align: center;
+	color: #ffffff;
+	margin: 0px 0px 10px 0px;
+	background-color: #2f7366;
+	font-weight: 400;
+	padding: 30px;
+}
+
+.slicknav_menu {
+	display: none;
+}
+
+.sigil {
+	height: 100px;
+	padding: 1px;
+}
+
+#menu {
+	float: right
+}
+
+#menu li{
+	display: inline-block;
+	list-style-type: none;
+}
+
+#menu li a {
+	text-decoration: none;
+	color: #c1d6cd;
+	padding: 10px;
+	font-size: 18px;
+}
+
+header {
+	padding: 20px 20px 20px 20px;
+	background-color: #171c26;
+}
+
+.col {float: left;
+		padding: 1%;
+}
+
+.col-lg {
+	width: 31.3%;
+	
+}
+
+.col-lg img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.hero {
+	background-image: url(Images/treeboi.jpg);
+	padding: 50px 0px 150px 72px;
+	background-size:cover;
+}
+
+.heading {
+	color:#FFFFFF;
+	font-weight: 400;
+	font-size: 45px;
+	margin: 40px 10px 0px 0px;
+}
+
+.subheading {
+	color: #000000;
+	font-family: 'karma';'serif';
+	margin-top: 10px;
+	margin-right: 20%;
+	margin-bottom: 30px;
+}
+
+.contact {
+	font-size: 20px;
+	background-color: #F25244;
+	padding: 13px 40px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: 600;
+}
+
+/*Design CSS*/
+
+.design-heading{
+	color:#Ffffff;
+	background-color: #2f7366;
+	font-weight: 400;
+	font-size: 45px;
+	padding: 15px;
+	margin: 0px 0px 30px 0px;
+}
+.design-subheading{
+	color:#Ffffff;
+	font-weight: 400;
+	font-size: 25px;
+	padding: 15px;
+	margin: 0px 0px 30px 0px;
+}
+
+.thumbtitle{
+	text-align: center;
+	background-color: #2f7366;
+	padding: 15px;
+	margin-top: 0px;
+	color: #ffffff;
+	font-size: 40px;
+}
+
+
+
+
+
+
+.row {
+	height:auto;
+	margin: auto;
+
+}
+/*
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.row:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}*/
+
+/*About CSS*/
+
+.about-heading{
+	color:#Ffffff;
+	background-color: #2f7366;
+	font-weight: 400;
+	font-size: 45px;
+	padding: 15px;
+	margin: 0px 0px 30px 0px;
+}
+.face{
+	max-width: 40%;
+	margin: 10px 10px 10px 30px;
+}
+
+.aboutme {
+	color: #000b02;
+	font-size: 18px;
+	float: right;
+	max-width: 47%;
+	margin: 0px 30px 50px 10px;
+	padding: 10px;
+	font-family: 'karma', 'serif';
+}
+
+#hi {
+	font-size: 35px;
+}
+
+/*Project CSS*/
+/*.propic {
+	max-width: 50%;
+	display: block;
+	vertical-align: left;
+	text-align: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	object-fit: contain;
+}
+
+.aboutproject {
+	color: #000b02;
+	font-size: 22px;
+	padding-left: 150px;
+	padding-right: 150px;
+	text-align: center;
+	font-family: 'karma';
+	margin-top: 50px;
+	margin-bottom: 50px;
+}*/
+
+
+
+/*Footer CSS*/
+
+.logo-container {
+	max-height: 100px;
+	bottom: 0px;
+	background-color: #171c26;
+	width: 100%;
+    margin: 10px 10px 0 0;  
+    overflow:auto;
+}
+.logo-thumb {
+    float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 5px;
+}
+.post-thumb img {
+    display: inline-block;
+}
+.footer-content {
+	float: left;
+    margin-left: 10px;
+	color: #c1d6cd;
+}
+
+
+
+
+
+/*Contact CSS*/
+
+.contact-heading {
+	color:#Ffffff;
+	background-color: #2f7366;
+	font-weight: 400;
+	font-size: 45px;
+	padding: 15px;
+	margin: 0px 0px 30px 0px;
+}
+
+#formbox2 {
+	clear: left;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+#formbox1 {
+	float: left;
+	width: 100%;
+	position: relative;
+	right: 50%;
+}
+
+#form1 {
+	float: left;
+	width: 46%;
+	position: relative;
+	left: 52%;
+	overflow: hidden;
+
+}
+
+#form2 {
+	float: left;
+	width: 46%;
+	left: 56%;
+	overflow: hidden;
+	font-family: 'karma', 'serif';
+	font-size: 18px;
+	position: absolute;
+
+	
+}
+
+.form-control{
+	width: 95%;
+	height: 30px;
+	background: #FFFFFF;
+	border: solid #2f7366 2px;
+	outline: none;
+	font-family: 'karma', 'serif';
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.input{
+	height: 10px;
+	max-height: 50px;
+	
+}
+
+.submit{
+	width: 150px;
+	height: 50px;
+	background-color: #f25244;
+	color: #FFFFFF;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 13px 10px 10px 10px;
+
+}
+
+.form-control-message{
+	width: 95%;
+	height: 150px;
+	background: #FFFFFF;
+	border: solid #2f7366 2px;
+	outline: none;
+	font-family: 'karma', 'serif';
+	font-size: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	resize: none;
+}
+
+#myinfo {
+	width: 95%;
+}
+
+#listylist {
+	list-style-type: none;
+	line-height: 3;
+}
+
+* {box-sizing: border-box;}
+
+/* Create two unequal columns that floats next to each other */
+
+.colcon {
+margin-left: 10%;
+	margin-right:10%;
+}
+
+
+.column {
+  float: left;
+	font-family: 'karma', 'serif';
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 30%;
+	margin: 1.5%;
+		
+	height: auto;
+	color: #000b02;
+}
+
+.right {
+  width: 63%;
+	margin: 1.5%;
+}
+
+/* Clear floats after the columns */
+.projectcontainer:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+
+.projectabout {
+	font-size: 35px;
+	margin-bottom: 0px;
+		margin-top:0px;
+}
+/*Slides Css*/
+
+*{box-sizing:border-box}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+width: 80%;
+	max-width: 1000px;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display:none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #c1d6cd;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #f25244;
+}
+
+/* Caption text */
+.text {
+  color: #c1d6cd;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/5) */
+.numbertext {
+  color: #c1d6cd;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #2f7366;
+  border-radius: 10%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #f25244;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+/*Tablet Version*/
+
+@media (max-width: 768px) {
+
+	.col-md {
+		width: 48%;
+	}
+	
+
+.form-control{
+	background: #FFFFFF;
+	border: solid #2f7366 2px;
+	outline: none;
+	font-family: 'Karma'; 'serif';
+	font-size: 20px;
+	width: 48%;
+	height: 40px;
+	padding-left: 5px;
+	
+}
+
+.input{
+	height: 10px;
+	max-height: 50px;
+	
+}
+
+.submit{
+	align-content: center;
+	width: 200px;
+	height: 50px;
+	background-color: #f25244;
+	color: #FFFFFF;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px 10px 10px 10px;
+}
+
+.form-control-message{
+	width: 48%;
+	height: 200;
+	background: #FFFFFF;
+	border: solid #2f7366 2px;
+	outline: none;
+	font-family: 'karma', 'serif';
+	font-size: 20px;
+	padding-left: 5px;
+	resize: none;
+}
+	
+.logo-container {
+	width: 100%;
+    margin: 10px 10px 0 0;  
+    overflow:auto;
+	max-height: 100px;
+	bottom: 0;
+}
+.logo-thumb {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 5px;
+	display: inline-block;
+	
+}
+	.propic {
+  display: block;
+vertical-align: middle;
+   text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.aboutproject {
+	font-size: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}	
+
+
+	
+}
+
+
+/*Moblie Version*/
+
+@media (max-width: 400px) {
+
+	.hero {
+		padding: 52px 0px 72px 40px;
+	}
+	
+	.col-sm {
+		width: 100%;
+	}
+	.col {
+		padding: 0px;
+	}
+	
+	.slicknav_menu {
+	display: block;
+}	
+	#menu{display: none
+	}	
+	
+.form-control{
+	background: #FFFFFF;
+	border: solid #2f7366 2px;
+	outline: none;
+	font-family: 'Karma'; 'serif';
+	font-size: 20px;
+	width: 90%;
+	height: 40px;
+	padding-left: 5px;
+	
+}
+
+.input{
+	height: 10px;
+	max-height: 50px;
+	
+}
+
+.submit{
+	align-content: center;
+	width: 90%;
+	height: 50px;
+	background-color: #f25244;
+	color: #FFFFFF;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	font-weight: 600;
+	margin-left: 20px;
+}
+
+.form-control-message{
+	width: 90%;
+	height: 200;
+	background: #FFFFFF;
+	border: solid #2f7366 2px;
+	outline: none;
+	font-family: 'Karma'; 'serif';
+	font-size: 20px;
+	padding-left: 5px;
+	resize: none;
+}
+
+.propic {
+  display: block;
+vertical-align: middle;
+   text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.aboutproject {
+	font-size: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}	
+
+	
+	
+}

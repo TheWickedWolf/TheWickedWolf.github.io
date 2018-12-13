@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Speedlimit</title>
+<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slicknav.css">
+	<link href="https://fonts.googleapis.com/css?family=Karma:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre:400,700" rel="stylesheet">
+<script>
+	
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+} 	
+
+</script>
+
+</head>
+
+<body>
+	
+	<header>
+		
+		<a href="index.html">
+			<img src="Images/Sigilblue-red.png" alt="Hannah Turner's Sigil" class= "sigil">
+		</a>
+		
+		<ul id="menu">
+			<li><a href="design.html">Design</a></li>
+			<li><a href="fine-art.html">Fine Art</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+		</ul>
+	
+	</header>
+	
+<main>	
+		<h1 class="about-heading">Photography Final: Spring 2018</h1>
+	
+				<!-- Slideshow container -->
+			<div class="slideshow-container">
+
+			  <!-- Full-width images with number and caption text -->
+			  <div class="mySlides fade">
+				<div class="numbertext">1 / 11</div>
+				<img src="Images/GOLFcornflag.jpg" alt="Golf flag in the wind in front of a plowed cornfield" style="width:100%">
+				<div class="text">Photo 1</div>
+			  </div>
+
+			  <div class="mySlides fade">
+				<div class="numbertext">2 / 11</div>
+				<img src="Images/GOLFtrash.jpg" alt="Trash can on golf course filled with beer cans" style="width:100%">
+				<div class="text">Photo 2</div>
+			  </div>
+
+			  <div class="mySlides fade">
+				<div class="numbertext">3 / 11</div>
+				<img src="Images/GOLFbench.jpg" alt="Bench with golf course map carved into it under conifer tree" style="width:100%">
+				<div class="text">Photo 3</div>
+			  </div>
+				
+				<div class="mySlides fade">
+				<div class="numbertext">4 / 11</div>
+				<img src="Images/GOLFcart.jpg" alt="Golf cart on course" style="width:100%">
+				<div class="text">Photo 4</div>
+			  </div>
+				
+				<div class="mySlides fade">
+				<div class="numbertext">5 / 11</div>
+				<img src="Images/GOLFsign.jpg" alt="Golf warning sign reading, 'Please do not retreive balls hit across', in front of house across the road" style="width:100%">
+				<div class="text">Photo 5</div>
+			  </div>
+				
+				<div class="mySlides fade">
+				<div class="numbertext">6 / 11</div>
+				<img src="Images/GOLFtalltree.jpg" alt="Bare tree on hill of golf course" style="width:100%">
+				<div class="text">Photo 6</div>
+			  </div>
+
+			  <div class="mySlides fade">
+				<div class="numbertext">7 / 11</div>
+				<img src="Images/GOLFstump.jpg" alt="Cut tree stump painted white" style="width:100%">
+				<div class="text">Photo 7</div>
+			  </div>
+
+			  <div class="mySlides fade">
+				<div class="numbertext">8 / 11</div>
+				<img src="Images/GOLFtreeboi.jpg" alt="Close up of bare tree on golf course" style="width:100%">
+				<div class="text">Photo 8</div>
+			  </div>
+				
+				<div class="mySlides fade">
+				<div class="numbertext">9 / 11</div>
+				<img src="Images/GOLFblue.jpg" alt="Blue wooden square golf marker" style="width:100%">
+				<div class="text">Photo 9</div>
+			  </div>
+				
+				<div class="mySlides fade">
+				<div class="numbertext">10 / 11</div>
+				<img src="Images/GOLFspeedlimit.jpg" alt="Yellow speedlimit sign bolted to a tree" style="width:100%">
+				<div class="text">Photo 10</div>
+			  </div>
+				
+				<div class="mySlides fade">
+				<div class="numbertext">11 / 11</div>
+				<img src="Images/GOLFgreenflag.jpg" alt="Flag number 1 on a green" style="width:100%">
+				<div class="text">Photo 11</div>
+			  </div>
+
+			  <!-- Next and previous buttons -->
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+				<span class="dot" onclick="currentSlide(4)"></span> 
+				<span class="dot" onclick="currentSlide(5)"></span> 
+				<span class="dot" onclick="currentSlide(6)"></span> 
+				<span class="dot" onclick="currentSlide(7)"></span> 
+				<span class="dot" onclick="currentSlide(8)"></span> 
+				<span class="dot" onclick="currentSlide(9)"></span> 
+				<span class="dot" onclick="currentSlide(10)"></span> 
+				<span class="dot" onclick="currentSlide(11)"></span> 
+			</div> 
+		
+
+<div class="colcon">
+<div class="projectcontainer">
+  <div class="column left">
+	  <h3 class="projectabout">About</h3>
+	<p class="medgen"><strong>Medium:</strong> Photography</p>
+	<p class="medgen"><strong>Genre:</strong> Sports/Documentry</p>
+  </div>
+ 
+	<div class="column right">
+	<h3 class="projectabout">Description</h3>
+	<p>This project was a final for my photography class where we were tasked to make a set of photos all pertaining to a theme or photography style. I chose to to a sports like theme of where usualy sports photographers take pictures of the players but here I didn't. Instead I took pictures of the scenery around a golf course in Colfax, Iowa while my dad played a round. My style that ened up emering from this was that I always used the rule of thirds no matter what I took. I like the ugliness to the photos because it just goes to show how real places look not perfected ones.</p>	
+  </div>
+</div>
+	</div>
+
+	
+	
+	</main>
+
+	<div class="logo-container">
+		<div >
+			<div class="footer-content">
+				<h4 class="reserved">© 2018 Hannah Turner. All Rights Reserved</h4>
+			</div>
+			<div class="logo-thumb">
+				<a href="speedlimit.html">
+				<img src="Images/thumbnail-f-dblarrow.png" alt="Arrow up to page and link" width="50px">
+				</a>
+			</div>
+		</div>
+	</div>
+		
+	
+	
+	
+	<script src="jquery-1.11.3.min.js"></script>
+	<script src="jquery.slicknav.js"></script>
+	<script>
+		$(function(){
+			$('#menu').slicknav();
+		});
+	</script>	
+</body>
+</html>

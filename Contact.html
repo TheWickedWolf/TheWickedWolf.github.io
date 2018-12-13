@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact Form</title>
+<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slicknav.css">
+	<link href="https://fonts.googleapis.com/css?family=Karma:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre:400,700" rel="stylesheet">
+
+	
+	
+</head>
+
+
+	
+	<header>
+		<a href="index.html">
+			<img src="Images/Sigilblue-red.png" alt="Hannah Turner's Sigil" class= "sigil">
+		</a>
+		
+		<ul id="menu">
+			<li><a href="design.html">Design</a></li>
+			<li><a href="fine-art.html">Fine Art</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+		</ul>
+	
+	</header>
+	
+	<main>
+	
+	<div class="contact-title">
+		<h1 class="contact-heading">Contact</h1>
+	</div>
+
+<div id="formbox2">
+	<div id="formbox1">
+		<div id="form1">
+		<form id="contact-form" method="post" action="">
+				
+			<input name="name" type="text" class="form-control" placeholder="Name" required><br> 
+				
+			<input name="email" type="text" class="form-control" placeholder="Email" required><br> 
+				
+			<textarea name="message" class="form-control-message" placeholder="Message" required></textarea><br>
+				
+			<input type="submit" class="form-control submit" value="SUBMIT">
+ 				
+		</form>
+		</div>
+		</div>
+<div id="form2">
+			<!-- Column two start -->
+		<div id="myinfo">
+			<h2>Hannah Turner</h2>
+			<div id="listylist">
+				<p>Des Moines, Iowa</p>
+				<p>Htdigitaldesigns@gmail.com</p>
+				<p>Not currently taking commissions</p>
+		
+			</div>
+		</div>
+			<!-- Column two end -->
+		</div>
+	</div>
+		
+	</main>
+		
+		
+		<div class="logo-container">
+		<div >
+			<div class="footer-content">
+				<h4 class="reserved">© 2018 Hannah Turner. All Rights Reserved</h4>
+			</div>
+			<div class="logo-thumb">
+				<a href="index.html">
+				<img src="Images/thumbnail-f-dblarrow.png" alt="Arrow up to Home page and link" width="50px">
+				</a>
+			</div>
+		</div>
+	</div>
+		
+	<script src="jquery-1.11.3.min.js"></script>
+	<script src="jquery.slicknav.js"></script>
+	<script>
+		$(function(){
+			$('#menu').slicknav();
+		});
+	</script>	
+</body>
+</html>

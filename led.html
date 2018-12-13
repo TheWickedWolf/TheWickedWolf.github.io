@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LED project</title>
+<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slicknav.css">
+	<link href="https://fonts.googleapis.com/css?family=Karma:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre:400,700" rel="stylesheet">
+<script>
+	
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+} 	
+
+</script>
+
+</head>
+
+<body>
+	
+	<header>
+		
+		<a href="index.html">
+			<img src="Images/Sigilblue-red.png" alt="Hannah Turner's Sigil" class= "sigil">
+		</a>
+		
+		<ul id="menu">
+			<li><a href="design.html">Design</a></li>
+			<li><a href="fine-art.html">Fine Art</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+		</ul>
+	
+	</header>
+	
+<main>	
+		<h1 class="about-heading">Photography Midterm: Spring 2018</h1>
+	
+				<!-- Slideshow container -->
+			<div class="slideshow-container">
+
+			  <!-- Full-width images with number and caption text -->
+			  <div class="mySlides fade">
+				<div class="numbertext">1 / 8</div>
+				<img src="Images/LEDeyes.jpg" alt="Close up of eyes pixelated by LED lights" style="width:100%">
+				<div class="text">Photo 1</div>
+			  </div>
+
+			  <div class="mySlides fade">
+				<div class="numbertext">2 / 8</div>
+				<img src="Images/LEDus!.jpg" alt="Close up of the exclamation 'US!' pixelated by LED lights" style="width:100%">
+				<div class="text">Photo 2</div>
+			  </div>
+
+			  <div class="mySlides fade">
+				<div class="numbertext">3 / 8</div>
+				<img src="Images/LEDfire.jpg" alt="Close up of fire pixelated by LED lights" style="width:100%">
+				<div class="text">Photo 3</div>
+			  </div>
+				
+				<div class="mySlides fade">
+				<div class="numbertext">4 / 8</div>
+				<img src="Images/ledcoke.jpg" alt="Close up of Coca-Cola logo pixelated by LED lights" style="width:100%">
+				<div class="text">Photo 4</div>
+			  </div>
+				
+				<div class="mySlides fade">
+				<div class="numbertext">5 / 8</div>
+				<img src="Images/LEDflag.jpg" alt="Close up of American Flag pixelated by LED lights" style="width:100%">
+				<div class="text">Photo 5</div>
+			  </div>
+				
+				<div class="mySlides fade">
+				<div class="numbertext">6 / 8</div>
+				<img src="Images/LEDice.jpg" alt="Close up of icicles dripping pixelated by LED lights" style="width:100%">
+				<div class="text">Photo 6</div>
+			  </div>
+
+			  <div class="mySlides fade">
+				<div class="numbertext">7 / 8</div>
+				<img src="Images/LEDroad.jpg" alt="Close up of road pixelated by LED lights" style="width:100%">
+				<div class="text">Photo 7</div>
+			  </div>
+
+			  <div class="mySlides fade">
+				<div class="numbertext">8 / 8</div>
+				<img src="Images/LEDarrow.jpg" alt="Green arrows pointing up pixelated by LED lights" style="width:100%">
+				<div class="text">Photo 8</div>
+			  </div>
+				
+
+			  <!-- Next and previous buttons -->
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+				<span class="dot" onclick="currentSlide(4)"></span> 
+				<span class="dot" onclick="currentSlide(5)"></span> 
+				<span class="dot" onclick="currentSlide(6)"></span> 
+				<span class="dot" onclick="currentSlide(7)"></span> 
+				<span class="dot" onclick="currentSlide(8)"></span> 
+			</div> 
+		
+
+<div class="colcon">
+<div class="projectcontainer">
+  <div class="column left">
+	  <h3 class="projectabout">About</h3>
+	<p class="medgen"><strong>Medium:</strong> Photography</p>
+	<p class="medgen"><strong>Genre:</strong> Mimicry</p>
+  </div>
+ 
+	<div class="column right">
+	<h3 class="projectabout">Description</h3>
+	<p>This is a set of photos from my photography class midterm. We were tasked to copy an artists work and try and replicate it the best we could through our photography. I copyed someone who did a set of photos of an old LED T.v. close up. I went and took photos during the 2018 olympics on my old T.v. i took over 300 photos and these were the best. My favorite is the Coca-cola logo because I didn't edit it in photoshop, that was just how the light was captured in my phtograph.</p>	
+  </div>
+</div>
+	</div>
+
+	
+	
+	</main>
+
+	<div class="logo-container">
+		<div >
+			<div class="footer-content">
+				<h4 class="reserved">© 2018 Hannah Turner. All Rights Reserved</h4>
+			</div>
+			<div class="logo-thumb">
+				<a href="led.html">
+				<img src="Images/thumbnail-f-dblarrow.png" alt="Arrow up to page and link" width="50px">
+				</a>
+			</div>
+		</div>
+	</div>
+		
+	
+	
+	
+	<script src="jquery-1.11.3.min.js"></script>
+	<script src="jquery.slicknav.js"></script>
+	<script>
+		$(function(){
+			$('#menu').slicknav();
+		});
+	</script>
+</body>
+</html>
